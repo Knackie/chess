@@ -9,13 +9,25 @@ CONFIG += c++11
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    bishop.cpp \
     board.cpp \
+    king.cpp \
+    knight.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    pawn.cpp \
+    queen.cpp \
+    rook.cpp
 
 HEADERS += \
+    bishop.h \
     board.h \
-    mainwindow.h
+    king.h \
+    knight.h \
+    mainwindow.h \
+    pawn.h \
+    queen.h \
+    rook.h
 
 FORMS += \
     mainwindow.ui
