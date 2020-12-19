@@ -6,6 +6,8 @@ class bishop
 {
 public:
     bishop();
+
+    void moves();
 };
 
 #endif // BISHOP_H

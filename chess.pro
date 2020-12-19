@@ -11,10 +11,10 @@ CONFIG += c++11
 SOURCES += \
     bishop.cpp \
     board.cpp \
+    game.cpp \
     king.cpp \
     knight.cpp \
     main.cpp \
-    mainwindow.cpp \
     pawn.cpp \
     queen.cpp \
     rook.cpp
@@ -22,15 +22,15 @@ SOURCES += \
 HEADERS += \
     bishop.h \
     board.h \
+    game.h \
     king.h \
     knight.h \
-    mainwindow.h \
     pawn.h \
     queen.h \
     rook.h
 
 FORMS += \
-    mainwindow.ui
+    game.ui
 
 TRANSLATIONS += \
     chess_fr_FR.ts

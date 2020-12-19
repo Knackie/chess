@@ -6,6 +6,8 @@ class queen
 {
 public:
     queen();
+
+    void moves();
 };
 
 #endif // QUEEN_H
