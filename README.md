@@ -30,7 +30,9 @@ Enfin, pour la gestion graphique, j'ai choisi l'outil Qt, qui m'a été recomman
 
 Je me suis inspiré de differentes sources pour ce jeu, d'abord : https://fr.jeffprod.com/blog/2014/comment-programmer-un-jeu-dechecs/  
 J'ai repris la logique, que j'ai changé en une classe par pièce pour plus de simplicité (en effet certains mouvements sont identiques, mais je préfère différencier les pièces par une classe que par leurs déplacements.  
-Les pièces viennent de ce [lien](https://www.cleanpng.com/png-chess-piece-knight-rook-clip-art-chess-pieces-585652/download-png.html) : 
+Les différentes pièces viennent de [Cleanpng](https://www.cleanpng.com/png-chess-piece-knight-rook-clip-art-chess-pieces-585652/download-png.html) : 
 <p align="center">
 <img src="images/chesspiece.png" height="500" />
 </p>
+Les autres thèmes sont issues de [canvas chess](http://www.canvaschess.com/download.php)
+
