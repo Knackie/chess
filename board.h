@@ -2,7 +2,9 @@
 #define BOARD_H
 
 #include <vector>
+#include <QGraphicsRectItem>
 #include "pieces.h"
+
 class Board
 {
 private:
