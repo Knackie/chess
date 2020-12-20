@@ -13,7 +13,7 @@ Ce projet à pour but de générer un jeu d'échecs, avec 2 modes de jeu, un con
 # Choix de l'architecture du projet 
 
 <p align="center">
-<img src="images/diagramme.png" height="500" />
+<img src="images/diagramme.png" height="650" />
 </p>
 
 J'ai choisi de faire une classe par pièce pour plus de simplicité.  
