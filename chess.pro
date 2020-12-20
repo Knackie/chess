@@ -11,7 +11,7 @@ CONFIG += c++11
 SOURCES += \
     bishop.cpp \
     board.cpp \
-    box.cpp \
+    case.cpp \
     game.cpp \
     king.cpp \
     knight.cpp \
@@ -24,7 +24,7 @@ SOURCES += \
 HEADERS += \
     bishop.h \
     board.h \
-    box.h \
+    case.h \
     game.h \
     king.h \
     knight.h \
