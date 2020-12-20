@@ -8,14 +8,19 @@
 class Board
 {
 private:
-    vector<Piece *> white;
-    vector<Piece *> black;
+    // vector of piece, for each color
+    //vector<Piece *> white, black;
 
 public:
-    void chessboard(int x, int y);
+    //constructor
     Board();
+    // create the chessboard
+    void chessboard(int x, int y);
+    // for add some piece
     void add_piece();
+    /// for reset the board (end game, new game)
     void reset_board();
+    // initialise each color
     void set_white();
     void set_black();
 };

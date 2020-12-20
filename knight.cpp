@@ -4,3 +4,7 @@ knight::knight()
 {
 
 }
+void knight::moves()
+{
+
+}

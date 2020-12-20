@@ -4,3 +4,7 @@ pawn::pawn()
 {
 
 }
+void pawn::moves()
+{
+
+}

@@ -22,12 +22,13 @@ public:
     void start();
     void Board();
     void set_turn();
-    //destructor
-    ~Game();
+
 
     //getter
     string get_turn(string turn);
 
+    //destructor
+    ~Game();
 
 private:
     QGraphicsScene *gameScene;

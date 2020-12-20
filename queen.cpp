@@ -4,3 +4,7 @@ queen::queen()
 {
 
 }
+void queen::moves()
+{
+
+}

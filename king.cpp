@@ -4,3 +4,7 @@ king::king()
 {
 
 }
+void king::moves()
+{
+
+}

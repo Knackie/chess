@@ -4,3 +4,7 @@ rook::rook()
 {
 
 }
+void rook::moves()
+{
+
+}
