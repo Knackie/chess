@@ -18,5 +18,5 @@ J'ai repris la logique, que j'ai changé en une classe par pièce pour plus de s
 
 Les pièces viennent de cette image : 
 <p align="center">
-<img src="images/chesspiece.png" height="1000" />
+<img src="images/chesspiece.png" height="500" />
 </p>
