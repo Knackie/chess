@@ -1,7 +1,6 @@
 #include "pieces.h"
 
-pieces::pieces()
+Pieces::Pieces()
 {
-
 
 }

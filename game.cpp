@@ -23,7 +23,11 @@ Game::~Game()
 
 }
 
-void Game::displayMainMenu()
+void Game::MainMenu()
 {
+    // in this method, we want to print the board
+    // this is creating the board, with the color, and setup the number of pieces
+    board = new Board();
+
 
 }

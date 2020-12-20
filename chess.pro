@@ -16,6 +16,7 @@ SOURCES += \
     knight.cpp \
     main.cpp \
     pawn.cpp \
+    pieces.cpp \
     queen.cpp \
     rook.cpp
 
@@ -26,6 +27,7 @@ HEADERS += \
     king.h \
     knight.h \
     pawn.h \
+    pieces.h \
     queen.h \
     rook.h
 

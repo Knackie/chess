@@ -4,6 +4,7 @@
 #include <QGraphicsScene>
 #include <QGraphicsView>
 #include <string>
+#include <board.h>
 
 using namespace std;
 
@@ -17,9 +18,9 @@ public:
     Game(QWidget *parent = nullptr);
 
     //methods
-    void displayMainMenu();
+    void MainMenu();
     void start();
-    void displayBoard();
+    void Board();
     void set_turn();
     //destructor
     ~Game();
