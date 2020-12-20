@@ -12,7 +12,9 @@ Ce code à pour but de générer un jeu d'échecs, avec 2 mode de jeu, un contre
 
 # Choix de l'architecture du projet 
 
-
+<p align="center">
+<img src="images/diagramme.png" height="500" />
+</p>
 
 # Sources
 
