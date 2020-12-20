@@ -10,6 +10,9 @@ Ce code à pour but de générer un jeu d'échecs, avec 2 mode de jeu, un contre
 
 [TODO]
 
+# Choix de l'architecture du projet 
+
+
 
 # Sources
 
