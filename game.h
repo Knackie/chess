@@ -4,7 +4,7 @@
 #include <QGraphicsScene>
 #include <QGraphicsView>
 #include <string>
-#include <board.h>
+#include "board.h"
 
 using namespace std;
 
