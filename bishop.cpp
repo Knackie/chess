@@ -1,10 +1,14 @@
 #include "bishop.h"
 
-bishop::bishop()
+bishop::bishop(string team, QGraphicsItem *parent) : Pieces(team,parent)
 {
 
 }
-void bishop::moves()
+void bishop::available_movements()
+{
+
+}
+void bishop::set_image()
 {
 
 }

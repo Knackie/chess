@@ -1,13 +1,14 @@
 #ifndef PAWN_H
 #define PAWN_H
+#include "pieces.h"
 
-
-class pawn
+class Pawn : public Pieces
 {
 public:
-    pawn();
-
-    void moves();
+    //constructor
+    Pawn(string team, QGraphicsItem *parent = 0);
+    //methods
+    void available_movements();
 };
 
 #endif // PAWN_H

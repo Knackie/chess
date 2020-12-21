@@ -1,10 +1,10 @@
 #include "rook.h"
 
-rook::rook()
+Rook::Rook(string team, QGraphicsItem *parent) : Pieces(team,parent)
 {
 
 }
-void rook::moves()
+void Rook::available_movements()
 {
 
 }

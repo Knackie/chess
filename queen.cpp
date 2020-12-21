@@ -1,10 +1,10 @@
 #include "queen.h"
 
-queen::queen()
+Queen::Queen(string team, QGraphicsItem *parent) : Pieces(team,parent)
 {
 
 }
-void queen::moves()
+void Queen::available_movements()
 {
 
 }

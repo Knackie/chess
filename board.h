@@ -4,7 +4,7 @@
 #include <vector>
 #include <QGraphicsRectItem>
 #include "pieces.h"
-
+#include "case.h"
 class Board
 {
 private:
@@ -16,6 +16,8 @@ public:
     Board();
     // create the chessboard
     void chessboard(int x, int y);
+
+
     // for add some piece
     void add_piece();
     /// for reset the board (end game, new game)

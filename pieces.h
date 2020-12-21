@@ -17,10 +17,10 @@ public:
     Pieces(string team, QGraphicsItem *parent =0);
 
     //methods
-
+    virtual void available_movements() = 0;
+    virtual void set_image() = 0;
 
     //destructor
-    ~Pieces();
 };
 
 #endif // PIECES_H

@@ -1,10 +1,10 @@
 #include "knight.h"
 
-knight::knight()
+Knight::Knight(string team, QGraphicsItem *parent) : Pieces(team,parent)
 {
 
 }
-void knight::moves()
+void Knight::available_movements()
 {
 
 }

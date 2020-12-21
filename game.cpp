@@ -1,33 +1,37 @@
 #include "game.h"
-#include <QPixmap>
 
 Game::Game(QWidget *parent) : QGraphicsView(parent)
 {
-    gameScene = new QGraphicsScene();
-    gameScene->setSceneRect(0,0,1400,900);
+    game_scene = new QGraphicsScene();
+    game_scene->setSceneRect(0,0,1400,900);
     // we want to keep on size (to avoid to rezise pawn & chessboard
     setFixedSize(1400,900);
     // disable all scroll bar
     setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
-    setScene(gameScene);
+    setScene(game_scene);
     // define the background color
     QBrush brush;
     brush.setStyle(Qt::SolidPattern);
     brush.setColor(Qt::black);
     setBackgroundBrush(brush);
 }
-
-Game::~Game()
+void Game::addToScene(QGraphicsItem *item)
 {
-
+    game_scene->addItem(item);
 }
 
-void Game::MainMenu()
+
+void Game::set_board()
 {
     // in this method, we want to print the board
     // this is creating the board, with the color, and setup the number of pieces
     board = new Board();
+    board->chessboard(width()/2-400,50);
 
+}
+
+Game::~Game()
+{
 
 }

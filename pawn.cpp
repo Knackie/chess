@@ -1,10 +1,10 @@
 #include "pawn.h"
 
-pawn::pawn()
+Pawn::Pawn(string team, QGraphicsItem *parent) : Pieces(team,parent)
 {
 
 }
-void pawn::moves()
+void Pawn::available_movements()
 {
 
 }

@@ -1,13 +1,14 @@
 #ifndef QUEEN_H
 #define QUEEN_H
+#include "pieces.h"
 
-
-class queen
+class Queen : public Pieces
 {
 public:
-    queen();
-
-    void moves();
+    //constructor
+    Queen(string team, QGraphicsItem *parent = 0);
+    //methods
+    void available_movements();
 };
 
 #endif // QUEEN_H

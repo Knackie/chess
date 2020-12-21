@@ -1,13 +1,14 @@
 #ifndef KING_H
 #define KING_H
+#include "pieces.h"
 
-
-class king
+class King : public Pieces
 {
 public:
-    king();
-
-    void moves();
+    //constructor
+    King(string team, QGraphicsItem *parent = 0);
+    //methods
+    void available_movements();
 };
 
 #endif // KING_H

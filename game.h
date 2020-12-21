@@ -4,33 +4,43 @@
 #include <QGraphicsScene>
 #include <QGraphicsView>
 #include <string>
+#include "pieces.h"
 #include "board.h"
-
+#include "case.h"
 using namespace std;
 
 
 class Game : public QGraphicsView
 {
     Q_OBJECT
+private:
+
+    Board *board;
+    QGraphicsScene *game_scene;
 
 public:
     //constructor
-    Game(QWidget *parent = nullptr);
+    Game(QWidget *parent = 0);
 
+    //variables
+    Case *gameboard[8][8];
     //methods
-    void MainMenu();
+    void addToScene(QGraphicsItem *item);
+    void set_board();
     void start();
-    void Board();
+
+    //setter
     void set_turn();
 
 
     //getter
     string get_turn(string turn);
 
+    //setter
+
     //destructor
     ~Game();
 
-private:
-    QGraphicsScene *gameScene;
+
 };
 #endif // GAME_H

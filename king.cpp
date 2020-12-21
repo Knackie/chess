@@ -1,10 +1,10 @@
 #include "king.h"
 
-king::king()
+King::King(string team, QGraphicsItem *parent) : Pieces(team,parent)
 {
 
 }
-void king::moves()
+void King::available_movements()
 {
 
 }
