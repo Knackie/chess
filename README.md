@@ -26,6 +26,15 @@ Pour ce projet, j'ai décidé d'utiliser le C++, car c'est un langage que je ma�
 Comme je n'ai jamais fait d'interface graphique au paravant, ce projet me permets de découvrir plus en détail la programmation graphique dans ce langage.  
 Enfin, pour la gestion graphique, j'ai choisi l'outil Qt, qui m'a été recommandé et que j'avais déjà pu expérimenté.  
 
+# Implémentation du plateau
+
+Pour le plateau, je me suis renseigné sur internet, et j'ai vu que la plupart ont tendence à faire un tableau de 64 cases pour le tableau.  
+J'ai décidé d'utiliser une autre méthode, un tableau de 8 * 8, pour mieux gérer les dépassements des cases du plateau.  
+Voici une illustration de mon choix :  
+<p align="center">
+<img src="images/board.png" height="500" />
+</p>
+
 # Sources
 
 Je me suis inspiré de differentes sources pour ce jeu, d'abord : https://fr.jeffprod.com/blog/2014/comment-programmer-un-jeu-dechecs/  
