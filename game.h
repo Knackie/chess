@@ -14,27 +14,31 @@ class Game : public QGraphicsView
 {
     Q_OBJECT
 private:
-
+    Case *gameboard[8][8];
     Board *board;
     QGraphicsScene *game_scene;
+    string theme;
 
 public:
     //constructor
     Game(QWidget *parent = 0);
 
     //variables
-    Case *gameboard[8][8];
+
     //methods
     void addToScene(QGraphicsItem *item);
-    void set_board();
+    void view_menu();
+    void view_board();
     void start();
 
     //setter
-    void set_turn();
-
+    void set_theme(string theme);
+    void set_turn(string turn);
+    void set_gameboard(int i, int j, Case *id);
 
     //getter
-    string get_turn(string turn);
+    string get_turn();
+    string get_theme();
 
     //setter
 

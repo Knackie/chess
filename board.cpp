@@ -13,6 +13,8 @@ extern Game *game;
 
 Board::Board()
 {
+
+
     set_white();
     set_white();
 
@@ -24,14 +26,14 @@ void Board::chessboard(int x, int y)
         for(int j = 0; j < 8; j++)
         {
             Case *chess_case = new Case();
-            game->gameboard[i][j] = chess_case;
+            game->set_gameboard(i,j,chess_case);
             chess_case->set_row(i);
             chess_case->set_col(j);
             chess_case->setPos(x+TAILLE*j,y+TAILLE*i);
-            if((i+j)%2==0)
-                chess_case->set_case_color(Qt::white);
+            if((i+j)%2)
+                chess_case->set_case_color(chess_white);
             else
-                chess_case->set_case_color(Qt::darkGray);
+                chess_case->set_case_color(chess_brown);
             game->addToScene(chess_case);
 
 

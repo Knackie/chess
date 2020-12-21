@@ -23,7 +23,7 @@ void Case::set_col(int col)
 
 void Case::set_case_color(QColor color)
 {
-    this->brush.setColor(color);
+    this->brush.setColor(QColor(120,60,55));
     setBrush(color);
 
 }

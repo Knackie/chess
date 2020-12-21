@@ -8,6 +8,9 @@
 class Board
 {
 private:
+    // for each color, the RGB code
+    QColor chess_brown = QColor(148, 80, 50);
+    QColor chess_white = QColor(219, 203, 179);
     // vector of piece, for each color
     //vector<Piece *> white, black;
 

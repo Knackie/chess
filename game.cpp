@@ -21,14 +21,40 @@ void Game::addToScene(QGraphicsItem *item)
     game_scene->addItem(item);
 }
 
-
-void Game::set_board()
+void Game::set_gameboard(int i, int j, Case *id)
 {
+    this->gameboard[i][j] = id;
+}
+
+void Game::view_menu()
+{
+    QGraphicsTextItem *titleText = new QGraphicsTextItem("Échecs");
+    QFont titleFont("arial" , 50);
+    titleText->setFont( titleFont);
+    int xPos = width()/2 - titleText->boundingRect().width()/2;
+    int yPos = 150;
+    titleText->setPos(xPos,yPos);
+    addToScene(titleText);
+    view_board();
+}
+void Game::view_board()
+{
+
     // in this method, we want to print the board
     // this is creating the board, with the color, and setup the number of pieces
     board = new Board();
     board->chessboard(width()/2-400,50);
 
+}
+
+void Game::set_theme(string theme)
+{
+    this->theme = theme;
+}
+
+string Game::get_theme()
+{
+    return theme;
 }
 
 Game::~Game()
