@@ -1,8 +1,8 @@
 #include "pawn.h"
 
-Pawn::Pawn(string team, QGraphicsItem *parent) : Pieces(team,parent)
+Pawn::Pawn(string team, QGraphicsItem *parent) : Piece(team,parent)
 {
-
+set_image();
 }
 void Pawn::available_movements()
 {

@@ -1,11 +1,11 @@
 #ifndef QUEEN_H
 #define QUEEN_H
-#include "../pieces.h"
+#include "../piece.h"
 #include "game.h"
 
 extern Game *game;
 
-class Queen : public Pieces
+class Queen : public Piece
 {
 public:
     //constructor

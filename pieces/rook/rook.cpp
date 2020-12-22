@@ -1,8 +1,8 @@
 #include "rook.h"
 
-Rook::Rook(string team, QGraphicsItem *parent) : Pieces(team,parent)
+Rook::Rook(string team, QGraphicsItem *parent) : Piece(team,parent)
 {
-
+    set_image();
 }
 void Rook::available_movements()
 {

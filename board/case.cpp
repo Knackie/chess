@@ -27,7 +27,34 @@ void Case::set_case_color(QColor color)
     setBrush(color);
 
 }
+void Case::set_piece(Piece *piece)
+{
 
+    piece->setPos(x()+50- piece->pixmap().width()/2  ,y()+50-piece->pixmap().width()/2);
+    piece->set_case(this);
+    set_used(true,piece);
+    on = piece;
+
+
+}
+
+void Case::set_used(bool used, Piece *p)
+{
+    this->is_used = used;
+    if(is_used)
+    {
+        set_team(p->get_team());
+    }
+    else
+    {
+        set_team("");
+    }
+}
+
+void Case::set_team(string team)
+{
+    this->piece_color = team;
+}
 int Case::get_row()
 {
     return(row);

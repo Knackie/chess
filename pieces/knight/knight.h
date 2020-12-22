@@ -1,9 +1,9 @@
 #ifndef KNIGHT_H
 #define KNIGHT_H
-#include "../pieces.h"
+#include "../piece.h"
 #include "game.h"
 extern Game *game;
-class Knight : public Pieces
+class Knight : public Piece
 {
 public:
     //constructor

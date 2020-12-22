@@ -3,7 +3,7 @@
 
 #include <vector>
 #include <QGraphicsRectItem>
-#include "../pieces/pieces.h"
+#include "../pieces/piece.h"
 #include "case.h"
 class Board
 {
@@ -12,22 +12,25 @@ private:
     QColor chess_brown = QColor(148, 80, 50);
     QColor chess_white = QColor(219, 203, 179);
     // vector of piece, for each color
-    //vector<Piece *> white, black;
+    vector <Piece *> list_white, list_black;
+    vector <string> pieces_name ;
 
 public:
     //constructor
     Board();
     // create the chessboard
     void chessboard(int x, int y);
+    void view_piece();
 
 
     // for add some piece
     void add_piece();
     /// for reset the board (end game, new game)
     void reset_board();
-    // initialise each color
+    // setter & initialise each color
     void set_white();
     void set_black();
+
 };
 
 #endif // BOARD_H

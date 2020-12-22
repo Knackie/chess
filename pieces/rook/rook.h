@@ -1,11 +1,11 @@
 #ifndef ROOK_H
 #define ROOK_H
-#include "../pieces.h"
+#include "../piece.h"
 #include "game.h"
 
 extern Game *game;
 
-class Rook : public Pieces
+class Rook : public Piece
 {
 public:
     //constructor

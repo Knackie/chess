@@ -1,8 +1,8 @@
 #include "king.h"
 
-King::King(string team, QGraphicsItem *parent) : Pieces(team,parent)
+King::King(string team, QGraphicsItem *parent) : Piece(team,parent)
 {
-
+set_image();
 }
 void King::available_movements()
 {

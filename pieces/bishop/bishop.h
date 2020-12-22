@@ -1,13 +1,15 @@
 #ifndef BISHOP_H
 #define BISHOP_H
-#include "../pieces.h"
-#include "game.h"
+#include "../piece.h"
+#include "../../game.h"
+
 extern Game *game;
-class bishop : public Pieces
+
+class Bishop : public Piece
 {
 public:
     //constructor
-    bishop(string team, QGraphicsItem *parent = 0);
+    Bishop(string team, QGraphicsItem *parent = 0);
     //methods
     void available_movements();
     void set_image();

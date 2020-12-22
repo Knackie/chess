@@ -1,11 +1,11 @@
 #ifndef KING_H
 #define KING_H
-#include "../pieces.h"
+#include "../piece.h"
 #include "game.h"
 
 extern Game *game;
 
-class King : public Pieces
+class King : public Piece
 {
 public:
     //constructor

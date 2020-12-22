@@ -18,7 +18,7 @@ SOURCES += \
     pieces/knight/knight.cpp \
     main.cpp \
     pieces/pawn/pawn.cpp \
-    pieces/pieces.cpp \
+    pieces/piece.cpp \
     pieces/queen/queen.cpp \
     pieces/rook/rook.cpp
 
@@ -31,7 +31,7 @@ HEADERS += \
     pieces/knight/knight.h \
     main.h \
     pieces/pawn/pawn.h \
-    pieces/pieces.h \
+    pieces/piece.h \
     pieces/queen/queen.h \
     pieces/rook/rook.h
 

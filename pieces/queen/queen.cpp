@@ -1,8 +1,8 @@
 #include "queen.h"
 
-Queen::Queen(string team, QGraphicsItem *parent) : Pieces(team,parent)
+Queen::Queen(string team, QGraphicsItem *parent) : Piece(team,parent)
 {
-
+set_image();
 }
 void Queen::available_movements()
 {

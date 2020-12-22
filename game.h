@@ -4,7 +4,7 @@
 #include <QGraphicsScene>
 #include <QGraphicsView>
 #include <string>
-#include "pieces/pieces.h"
+#include "pieces/piece.h"
 #include "board/board.h"
 #include "board/case.h"
 using namespace std;
@@ -17,7 +17,7 @@ private:
     Case *gameboard[8][8];
     Board *board;
     QGraphicsScene *game_scene;
-    string theme;
+    string theme = "default";
 
 public:
     //constructor
@@ -37,6 +37,7 @@ public:
     void set_gameboard(int i, int j, Case *id);
 
     //getter
+    Case * get_gameboard(int i, int j);
     string get_turn();
     string get_theme();
 

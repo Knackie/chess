@@ -1,11 +1,11 @@
 #ifndef PAWN_H
 #define PAWN_H
-#include "../pieces.h"
+#include "../piece.h"
 #include "game.h"
 
 extern Game *game;
 
-class Pawn : public Pieces
+class Pawn : public Piece
 {
 public:
     //constructor

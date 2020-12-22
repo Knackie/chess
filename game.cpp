@@ -21,10 +21,6 @@ void Game::addToScene(QGraphicsItem *item)
     game_scene->addItem(item);
 }
 
-void Game::set_gameboard(int i, int j, Case *id)
-{
-    this->gameboard[i][j] = id;
-}
 
 void Game::view_menu()
 {
@@ -37,12 +33,21 @@ void Game::view_board()
     // this is creating the board, with the color, and setup the number of pieces
     board = new Board();
     board->chessboard(width()/2-400,50);
+    board->view_piece();
 
 }
 
 void Game::set_theme(string theme)
 {
     this->theme = theme;
+}
+void Game::set_gameboard(int i, int j, Case *id)
+{
+    this->gameboard[i][j] = id;
+}
+Case * Game::get_gameboard(int i, int j)
+{
+    return(this->gameboard[i][j]);
 }
 
 string Game::get_theme()

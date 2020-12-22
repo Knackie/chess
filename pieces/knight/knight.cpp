@@ -1,8 +1,8 @@
 #include "knight.h"
 
-Knight::Knight(string team, QGraphicsItem *parent) : Pieces(team,parent)
+Knight::Knight(string team, QGraphicsItem *parent) : Piece(team,parent)
 {
-
+set_image();
 }
 void Knight::available_movements()
 {
