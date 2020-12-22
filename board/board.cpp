@@ -16,7 +16,7 @@ Board::Board()
 
 
     set_white();
-    set_white();
+    set_black();
 
 }
 void Board::chessboard(int x, int y)
