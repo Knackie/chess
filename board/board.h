@@ -3,7 +3,7 @@
 
 #include <vector>
 #include <QGraphicsRectItem>
-#include "/pieces/pieces.h"
+#include "../pieces/pieces.h"
 #include "case.h"
 class Board
 {
