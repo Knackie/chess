@@ -43,5 +43,5 @@ Les différentes pièces viennent de [Cleanpng](https://www.cleanpng.com/png-che
 <p align="center">
 <img src="images/chesspiece.png" height="500" />
 </p>
-Les autres thèmes sont issues de [Canvas Chess](https://www.canvaschess.com)  
+Les autres thèmes sont issues de Canvas Chess : http://www.canvaschess.com  
 
