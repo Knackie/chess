@@ -1,6 +1,6 @@
 #ifndef KNIGHT_H
 #define KNIGHT_H
-#include "pieces.h"
+#include "../pieces.h"
 #include "game.h"
 extern Game *game;
 class Knight : public Pieces

@@ -1,6 +1,6 @@
 #ifndef KING_H
 #define KING_H
-#include "pieces.h"
+#include "../pieces.h"
 #include "game.h"
 
 extern Game *game;

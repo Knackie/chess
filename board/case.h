@@ -2,7 +2,7 @@
 #define CASE_H
 #include <QGraphicsRectItem>
 #include <QBrush>
-#include "pieces.h"
+#include "/pieces/pieces.h"
 class Piece;
 class Case : public QGraphicsRectItem
 {

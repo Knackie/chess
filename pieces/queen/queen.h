@@ -1,6 +1,6 @@
 #ifndef QUEEN_H
 #define QUEEN_H
-#include "pieces.h"
+#include "../pieces.h"
 #include "game.h"
 
 extern Game *game;

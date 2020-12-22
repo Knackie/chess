@@ -4,9 +4,9 @@
 #include <QGraphicsScene>
 #include <QGraphicsView>
 #include <string>
-#include "pieces.h"
-#include "board.h"
-#include "case.h"
+#include "pieces/pieces.h"
+#include "board/board.h"
+#include "board/case.h"
 using namespace std;
 
 

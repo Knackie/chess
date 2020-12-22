@@ -1,6 +1,6 @@
 #ifndef ROOK_H
 #define ROOK_H
-#include "pieces.h"
+#include "../pieces.h"
 #include "game.h"
 
 extern Game *game;

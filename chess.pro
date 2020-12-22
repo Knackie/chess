@@ -10,29 +10,30 @@ CONFIG += c++11
 
 
 SOURCES += \
-    bishop.cpp \
-    board.cpp \
-    case.cpp \
+    pieces/bishop/bishop.cpp \
+    board/board.cpp \
+    board/case.cpp \
     game.cpp \
-    king.cpp \
-    knight.cpp \
+    pieces/king/king.cpp \
+    pieces/knight/knight.cpp \
     main.cpp \
-    pawn.cpp \
-    pieces.cpp \
-    queen.cpp \
-    rook.cpp
+    pieces/pawn/pawn.cpp \
+    pieces/pieces.cpp \
+    pieces/queen/queen.cpp \
+    pieces/rook/rook.cpp
 
 HEADERS += \
-    bishop.h \
-    board.h \
-    case.h \
+    pieces/bishop/bishop.h \
+    board/board.h \
+    board/case.h \
     game.h \
-    king.h \
-    knight.h \
-    pawn.h \
-    pieces.h \
-    queen.h \
-    rook.h
+    pieces/king/king.h \
+    pieces/knight/knight.h \
+    main.h \
+    pieces/pawn/pawn.h \
+    pieces/pieces.h \
+    pieces/queen/queen.h \
+    pieces/rook/rook.h
 
 FORMS +=
 

@@ -1,6 +1,6 @@
 #ifndef PAWN_H
 #define PAWN_H
-#include "pieces.h"
+#include "../pieces.h"
 #include "game.h"
 
 extern Game *game;
